@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StringParse
 {
-    class PoopDookieMan
+    class ParseFunctions
     {
 
         //todo: write better comments
@@ -55,7 +55,7 @@ namespace StringParse
                 transactionList.Add(transaction);
             }
             return transactionList;
-            //split the array, assign that split array to the base values, split those up and assign and manipulate them after theyre mapped to the object  
+            //this function splits the array by line divider, and maps that split array to the base object values
 
         }
 
@@ -63,6 +63,7 @@ namespace StringParse
 
         public static string GetTransactionTotals(string csv)
         {
+            //grabs total value of all transactions provided
             var transactions = ParseTransaction(csv);
             float total = 0;
             foreach (var transaction in transactions)
@@ -77,18 +78,18 @@ namespace StringParse
             else
             {
                 return total.ToString();
-
             }
         }
 
 
         public static List<Transaction> GetTransactionsStringFiltered(string csv, string filter)
         {
+            //filters by a xgiven character set. could probably be improved by a broader search funtionality
             var transactions = ParseTransaction(csv);
             var returnedTransactions = new List<Transaction>();
             foreach (var transaction in transactions)
             {
-                // (transaction.MiddleName.Contains(filter) ||
+                // (transaction.MiddleName.Contains(filter) || do things with middle names once we figure that out
                 if (transaction.FirstName.Contains(filter.ToUpper()) ||  transaction.LastName.Contains(filter.ToUpper()))
                 {
                     returnedTransactions.Add(transaction);
@@ -99,12 +100,12 @@ namespace StringParse
 
         public static List<Transaction> GetTransactionsDateFiltered(string csv, string filter)
         {
+            //filters by a given date, returning everything before and including the given date to filter by
             var filterDate = DateTime.Parse(filter);
             var transactions = ParseTransaction(csv);
             var returnedTransactions = new List<Transaction>();
             foreach (var transaction in transactions)
             {
-                // (transaction.MiddleName.Contains(filter) ||
                 if (transaction.TransactionDate <= filterDate)
                 {
                     returnedTransactions.Add(transaction);
