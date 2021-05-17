@@ -1,0 +1,13 @@
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\bin\Debug\netcoreapp3.1\StringParse.exe
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\bin\Debug\netcoreapp3.1\StringParse.deps.json
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\bin\Debug\netcoreapp3.1\StringParse.runtimeconfig.json
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\bin\Debug\netcoreapp3.1\StringParse.runtimeconfig.dev.json
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\bin\Debug\netcoreapp3.1\StringParse.dll
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\bin\Debug\netcoreapp3.1\StringParse.pdb
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\obj\Debug\netcoreapp3.1\StringParse.csprojAssemblyReference.cache
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\obj\Debug\netcoreapp3.1\StringParse.AssemblyInfoInputs.cache
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\obj\Debug\netcoreapp3.1\StringParse.AssemblyInfo.cs
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\obj\Debug\netcoreapp3.1\StringParse.csproj.CoreCompileInputs.cache
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\obj\Debug\netcoreapp3.1\StringParse.dll
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\obj\Debug\netcoreapp3.1\StringParse.pdb
+C:\Users\mynameisfury\source\repos\StringParse\StringParse\obj\Debug\netcoreapp3.1\StringParse.genruntimeconfig.cache
